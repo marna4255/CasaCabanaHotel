@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Handlee&family=Mouse+Memoirs&display=swap');
+
+* {
+  font-family: 'Edu TAS Beginner', cursive;
+  font-family: 'Handlee', cursive;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+#img_home {
+  background: url(img/home_page.jpg) no-repeat center center fixed ; 
+  text-align: center;
+  color: aliceblue;
+  
+}
+#heading_img {
+  color: rgb(49, 22, 75); ;
+  
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; 
+    overflow: hidden;
+    background-color: rgb(167, 155, 178);
+    border: 8px solid rgb(238, 222, 222);
+    text-align: center;
+ 
+}
+
+li {
+    float: right;
+   
+}
+
+li a {
+    font-size: 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(5, 4, 4);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img {
+    width: 60px;
+    height: auto;
+    display: block;
+}
+
+/* #footer_div {
+  display: inline-block;
+} */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* padding: 10px 10px 0px 10px; */
+  text-align: center;
+  /* padding: 3px; */
+}
+
+#copyright {
+  font-size: 10px;
+}
+
+#contact {
+  background: url(img/100.jpg) no-repeat center center fixed;
+  color: rgb(15, 6, 6);
+}
+
+
+#title {
+  font-size: 24px;
+  color: rgb(157, 133, 176);
+}
+
+#contact-img {
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin-right: 10px;
+  clear: both;
+}
+#phone-img {
+  height: 15px;
+  width: 15px;
+  float: left;
+   margin-right: 10px; 
+  clear: both; 
+}
+#whats-img {
+  height: 15px;
+  width: 15px;
+  float: left;
+  margin-right: 10px;
+  clear: both;
+}
+#mail-img {
+  height: 18px;
+  width: 18px;
+  float: left;
+  margin-right: 10px;
+  clear: both;
+}
+#clock-img {
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin-right: 10px; 
+  clear: both;
+}
+
+
+
+#p {
+  font-size: 14px;
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+
+}
+
+
+#heading_book_now {
+  font-size: 14px;
+}
+
+#label {
+  font-size: 12px;
+  
+}
+
+#heading_book_now {
+  color:  rgb(157, 133, 176) ;
+  font-size: 16px;
+}
+
+#textarea {
+  resize: horizontal;
+}
+
+#div_book_now {
+ display: inline-block;
+ border: 1px solid #ccc;
+ padding: 12px 20px;
+ margin: 8px 0;
+ width: 100%;
+ box-sizing: border-box;
+ text-align: center;
+ background: url(img/102.jpg) no-repeat center center fixed;
+ color:  rgb(5, 5, 6);
+}
+
+#gallery_img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  flex: 50%;
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  
+}
+
+#gallery_image {
+  width: 100%;
+}
+
+#privacy {
+  font-size: 11px;
+  text-align: center;
+  background: url(img/11.jpg) no-repeat center center fixed;
+  color: rgb(0, 0, 0);
+}
+
+#terms {
+  background: url(img/10.jpg) no-repeat center center fixed;
+  color: rgb(6, 0, 0);
+}
+
+#about {
+  background: url(img/9.jpg) no-repeat center center fixed;
+  color: rgb(6, 0, 0);
+  text-align: center;
+}
